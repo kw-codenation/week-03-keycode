@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Keycode Challenge</title>
+</head>
+<body>
+    <div class="header">Welcome to The Keycode Challenge</div>
+    <div id="page" align="center">Please press any key and if you can't find the any key then press whatever key you want to</div>
+
+    <div id="page2" style="display:none">
+        <div class="event-box">
+            <div class="event-code">{Code}</div>
+            <div class="boxes">
+                <div>{Box1}</div>
+                <div>{Box2}</div>
+                <div>{Box3}</div>
+                <div>{Box4}</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="key" style="display:none">
+        <table cellspacing="0" cellpadding="0" border="0" style="height:10vh">
+        <tr>
+            <td class="box title">{Title}</td>
+        </tr>
+        <tr>
+            <td class="box value">{Value}</td>
+        </tr>
+        </table>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

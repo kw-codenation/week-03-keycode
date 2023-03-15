@@ -1,0 +1,50 @@
+.header
+{
+    font-family:trebuchet ms, arial;
+    font-size:4vh;
+    color: cornflowerblue;
+    text-align:center;
+    text-shadow:1px 1px blue;
+}
+
+.box
+{
+    width:15vw;
+    font-family:verdana;
+}
+
+.title
+{
+    background-color:saddlebrown;
+    color:burlywood;
+    height:3vh;
+    text-align:center;
+}
+.value
+{
+    background-color:sandybrown;
+    height:6vh;
+    text-align:center;
+}
+.event-box
+{
+    width:70vw;
+    height:35vh;
+    background-color:yellow;
+    box-shadow:2px 2px 9px brown;
+    margin-top:20vh;
+}
+.event-code
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20vh;
+}
+.boxes
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    height:10vh;
+    padding-bottom:2vh;
+}
