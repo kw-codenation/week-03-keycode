@@ -1,3 +1,8 @@
+body
+{
+    background-image:url('./images/keyboard.jpg');
+}
+
 .header
 {
     font-family:trebuchet ms, arial;
@@ -11,6 +16,7 @@
 {
     width:15vw;
     font-family:verdana;
+    font-size:5vh;
 }
 
 .title
@@ -23,7 +29,7 @@
 .value
 {
     background-color:sandybrown;
-    height:6vh;
+    height:3vh;
     text-align:center;
 }
 .event-box

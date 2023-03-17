@@ -1,14 +1,11 @@
 const page = document.getElementById('page')
-page.style.margin = '10vh'
-page.style.fontFamily = 'verdana'
-page.style.fontSize = '3vh'
-page.style.color = 'green'
-
+page.style.margin = '30vh'
+page.style.fontFamily = 'fredoka one'
+page.style.fontSize = '6vh'
+page.style.color = 'red'
 
 document.body.addEventListener('keydown', (e)=> 
 {
-    /*alert(String.fromCharCode(e.keyCode)+" --> "+e.keyCode);*/
-
     let code = document.getElementById('key').innerHTML
     code = code.replace('{Title}', 'event.key')
     code = code.replace('{Value}', e.key)
@@ -21,16 +18,14 @@ document.body.addEventListener('keydown', (e)=>
     code = code.replace('{Value}', e.code)
     const box2 = code
 
-
-
     code = document.getElementById('key').innerHTML
     code = code.replace('{Title}', 'event.keycode')
     code = code.replace('{Value}', e.keyCode)
     const box3 = code
 
     code = document.getElementById('key').innerHTML
-    code = code.replace('{Title}', 'metakey')
-    code = code.replace('{Value}', e.metaKey)
+    code = code.replace('{Title}', 'location')
+    code = code.replace('{Value}', e.location)
     const box4 = code
 
 
